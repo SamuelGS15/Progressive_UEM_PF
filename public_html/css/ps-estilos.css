@@ -1,0 +1,709 @@
+
+
+.nuevoicono {  
+   
+    
+}
+
+.nuevofondo{
+    
+}
+
+.fondovacio {
+    
+}
+
+.iconoblanco{
+    color: white;
+}
+
+/*
+ * Three columns
+ * Estilos generados para que haya tres columnas y otra más para la imagen
+ */
+/* 
+.header .primary .megamenu.three-columns > .sub .box {
+  clear: none;
+}
+.header .primary .megamenu.three-columns > .sub .box:nth-child(4n+1),
+.header .primary .megamenu.promo.three-columns > .sub .box:nth-child(3n+1) {
+  clear: left;
+}
+.header .primary .megamenu.promo.three-columns > .sub .box {
+  clear: none;
+}
+.header .primary .megamenu.three-columns > .sub .promo-block,
+.header .primary .megamenu.three-columns > .sub .box {
+  width: 25%;
+}
+.header .primary .megamenu.three-columns > .sub .sub-list {
+  width: 75%;
+}
+.header .primary .megamenu.promo.three-columns > .sub .box {
+  width: 33%;
+}
+*/
+/*
+ * Estilos que se añaden al botón del idioma
+ 
+.colorfondoIdioma {
+    background-color: #0000FF;
+    border-radius: 4px;  
+    float: right;
+    margin: 10px 10px auto 10px;
+}
+*/
+/* 
+ * Estilos para el megamenu de Productos
+ */
+
+
+/*
+ * Estilos para el primer banner
+ * no usar em 
+ 
+.tab1 {
+    padding-left: 1.5em;
+}*/
+/*
+#icono-software {
+    display: none;
+}
+.aparece {
+    display: none;
+    
+}
+*/
+
+/*
+ * Estilos para los livicons, de forma que no dependan de un estilo bg.
+ */
+#icono-plataforma{
+    background: #c10841;
+}
+#icono-plataforma-servicio {
+    background: #c10841;
+}
+#icono-software, .fondo-azul {
+    background: #0098ca;
+}
+#icono-software-servicio {
+    background: #0098ca; 
+}
+#icono-helpdesk {
+    background: #738d00;
+}
+#icono-helpdesk-servicio {
+    background: #738d00; 
+}
+#icono-formacion {
+    background: #f89406;
+}
+#icono-formacion-servicio {
+    background: #f89406;
+}
+
+.bg-icon-border-initial {
+    /*background: #FFFF00;*/
+    background: #E835AA;
+    /*border-style: solid;
+    border-width: 2px;
+    border-color: #000000;*/
+}
+
+.bg-icon-border {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #ffffff;
+}
+
+.bg-icon-ajuste {
+    margin: auto;
+}
+
+/*
+* Encabezado
+*/
+.logo-position {
+   float: right;
+   left: 0px;
+   
+}
+
+.logo-invisible {
+    display: none;
+}
+
+/*
+ * Justificación del texto de la página index.html
+ */
+p.lead {
+    text-align: justify;
+    
+}
+
+/*
+ * Modificación de la caja de textÁrea del formulario de Productos
+ */
+.bs-example:after{
+    content:"Comentarios";
+}
+
+.form-control.form-textarea{
+    height: 126px;
+}
+/*
+.form-control.form-textarea-2{
+    height: 104px;
+}
+*/
+
+/*
+ * Modificación para la lista del slider de Productos
+ */
+
+.lista-separation {
+    margin-top: 10px;    
+}
+
+.lista-separation-2 {
+   line-height: 16px;   
+}
+
+
+
+/*
+* Evitar padding de la barra de menu
+*/
+#inicio {
+    padding: 0px;
+}
+
+/*
+ * Contenedor del logo
+*/
+.header .img-responsive.img-cambio-dim {
+    height: 87.72%; 
+    width: 80%;
+}
+
+/*
+ * Para la página de servicios
+ */
+.altura-cards {
+    min-height:343px;
+}
+
+.altura-cards-hover {
+    min-height:550px;
+}
+
+.cuadro-margen-foto {
+    margin-top: 210px;
+}
+.small-icon,
+.small-icon:visited {
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 25px;
+  color: #1e1e1e;
+  display: block;
+  height: 50px;
+  margin: 0px;
+  text-align: center;
+  width: 50px;
+  -webkit-transition: opacity .2s linear;
+  transition: opacity .2s linear;
+}
+
+.small-icon i:before {
+  font-size: 12px;
+  line-height: 25px;
+}
+a.small-icon:hover {
+  opacity: .8;
+  filter: alpha(opacity=80);
+  -webkit-transition: opacity .2s linear;
+  transition: opacity .2s linear;
+}
+.small-icon.pull-left {
+  margin: 0px 10px 10px 0px;
+}
+
+.ajustar-icono {
+    margin-top: 8px;
+    margin-left: 2px;
+}
+
+/*
+ * Servicios el formulario
+ */
+.altura-checkbox {
+   margin-top: 4px; 
+}
+
+.col-md-3.padding-nulo {    
+    padding: 0px;
+} 
+
+.col-md-9.padding-nulo {    
+    padding: 0px;
+}
+
+/*
+ * Centrar icono tercera carta de servicios
+ */
+.icon-center {
+    margin-left: 85px; 
+    margin-bottom: 20px;
+}
+
+
+
+
+/*
+Modificar el contenedor de hover
+*/
+
+ /* For Safari 3.1 to 6.0 modificado para aumentar la longitud */
+/*
+ .rotation.hover .employee-hover {
+    
+ }
+ 
+.rotation.hover .employee-hover:hover {  
+  height: 550px;
+}
+
+.employee:hover {   
+   height: 550px;
+}
+*/
+
+
+/*
+funciona
+.description.mover {
+  transition-timing-function: linear; 
+  -webkit-transition: all .6s ease-in-out;
+  transition: all .6s ease-in-out;
+}
+
+
+.description.mover:hover {
+  height: 450px;
+}
+
+.image.mover {
+   transition-timing-function: linear; 
+  -webkit-transition: all .6s ease-in-out;
+  transition: all .6s ease-in-out; 
+}
+
+.image.mover:hover + .description.mover {
+    height: 450px;
+}
+*/
+
+
+
+/*
+
+.default.mover {
+  transition-timing-function: linear; 
+  -webkit-transition: all .6s ease-in-out;
+  transition: all .6s ease-in-out;  
+}
+
+.default.mover:hover > .description.mover, .employee-hover.mover {
+   height: 550px; 
+}
+*/
+
+/*
+ * Para los efectos de las cartas
+ */
+.employee.rotation.mover > .default.mover > .description.mover {
+    transition-timing-function: linear; 
+    -webkit-transition: all .6s ease-in-out;
+    transition: all .6s ease-in-out; 
+}
+.movimiento-grande, .movimiento-medio, .movimiento-peq {
+    transition-timing-function: linear; 
+    -webkit-transition: all .6s ease-in-out;
+    transition: all .6s ease-in-out; 
+    background-color: #f2f2f2;
+    height: 1px;
+}
+.employee.rotation.mover:hover > .default.mover > .movimiento-grande {
+    height: 250px;  
+}
+.employee.rotation.mover:hover > .default.mover > .movimiento-medio {
+    height: 125px;  
+}
+.employee.rotation.mover:hover > .default.mover > .movimiento-peq {
+    height: 62px;  
+}
+
+/*
+ * Barra de menús en rojo
+ */
+
+.pagina-activa {
+    color: #c10841;
+}
+
+/*
+ * sobra a los iconos
+ */
+.icon-sombra {
+    box-shadow: 10px 10px 5px #888888;
+}
+
+.icon-sombra-logo {
+    box-shadow: 10px 10px 5px #888888;
+}
+
+/*
+* Quita la opacidad del slider
+*/
+.slider .slider-nav {
+    background-color: #0098CA;
+}
+
+/*
+ * Botón slider de parada
+ */
+.btn-play-stop {
+    z-index: 4; 
+    position: absolute; 
+    right: 23px; 
+    height: auto; 
+    width: auto;
+    top: 2px;
+}
+
+/*
+@media (max-width: 600px) {
+    #item-productos {
+      pointer-events: none;  
+    }
+    
+}
+*/
+
+/*
+Logo de productos
+*/
+.rotateMe {
+ -webkit-transition: -webkit-transform 1s ease-out;
+ -moz-transition: -moz-transform 1s ease-out;
+ transition: transform 1s ease-out;
+}
+.rotateMe:hover {
+ -webkit-transform: rotate(360deg);
+ -moz-transform: rotate(360deg);
+ transform: rotate(360deg);
+}
+.imagen-centrada {
+    position: relative; 
+    left: 25%; 
+    margin-top: 25%; 
+    //margin-bottom: 75%;
+    width: 40%;
+    height: 10%;
+}
+
+/*
+Texto del slider de productos
+*/
+
+.slider .slid-content .title {
+    color: black;
+}
+
+.slider .slid-content .descriptions {
+    color: black;
+    
+}
+
+.content .slider .slid-content {
+    background-color: #f2f2f2;
+    //height: 550px;
+    
+}
+
+.slider .slider-nav {
+    background-color: #f2f2f2;
+    
+}
+
+.content .slider .slider-nav {
+    width: 50%;
+    margin-right: -1%;
+    
+}
+
+
+
+/*
+ * Quitar el borde del menú productos y servicicios
+ */
+.header .primary .megamenu > .sub .sub-list + .promo-block {
+    border-left: none;
+}
+
+/*
+ * Menu al ubicar este estilo aquí el menú superior se comporta de forma diferente
+*/
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, 
+.col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, 
+.col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, 
+.col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, 
+.col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9,
+.col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10,
+.col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12,
+.col-lg-12{
+    position:relative;
+    min-height:1px;
+    padding-left:15px;
+    padding-right:15px
+}
+
+/*
+ * Estilo para el formulario de Servicios
+ */
+.form-check {
+    padding-left: 22px;
+    margin-bottom: 22px;
+}
+
+
+/*
+ scroll para las tarjetas
+*/
+.custom-scroll::-webkit-scrollbar {
+    margin-right: 5px;
+    //background-color: #bdd9d5;
+    background-color: #f2f2f2;
+    border-radius: 6px;
+    width: 12px;
+}
+.custom-scroll::-webkit-scrollbar-track {
+    box-shadow: 0 0 2px rgba(0,0,0,0.3);;
+}
+.custom-scroll::-webkit-scrollbar-thumb {
+    border: 1px #eee solid;
+    border-radius: 12px;
+    //background: #C7573A;
+    //background: #c10841;
+    background: #666666;
+    box-shadow: 0 0 8px rgba(0,0,0,0.3) inset;
+    -webit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+}
+.custom-scroll::-webkit-scrollbar-thumb:window-inactive {
+    background: #bbb;
+    box-shadow: 0 0 8px rgba(0,0,0,0.3) inset;
+}
+.custom-scroll::-webkit-scrollbar-thumb:hover { 
+    //background: #b7472A; 
+    //background: #ff0000; 
+    //background: #c10841;
+    background: #666666;
+}
+//mozilla
+.custom-scroll::-moz-scrollbar {
+    margin-right: 5px;
+    //background-color: #bdd9d5;
+    background-color: #f2f2f2;
+    border-radius: 6px;
+    width: 12px;
+}
+.custom-scroll::-moz-scrollbar-track {
+    box-shadow: 0 0 2px rgba(0,0,0,0.3);
+}
+.custom-scroll::-moz-scrollbar-thumb {
+    border: 1px #eee solid;
+    border-radius: 12px;
+    //background: #C7573A;
+    //background: #c10841;
+    background: #666666;
+    box-shadow: 0 0 8px rgba(0,0,0,0.3) inset;
+    -webit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+}
+.custom-scroll::-mozt-scrollbar-thumb:window-inactive {
+    background: #bbb;
+    box-shadow: 0 0 8px rgba(0,0,0,0.3) inset;
+}
+.custom-scroll::-moz-scrollbar-thumb:hover { 
+    //background: #b7472A; 
+    //background: #ff0000; 
+    //background: #c10841;
+    background: #666666;
+}
+
+/*
+    Estilo tarjeta
+*/
+.back-card {
+    position: relative;
+    height: 90%; 
+    overflow: auto;
+    padding-right: 8px;
+    padding-top: 8px;
+    
+}
+
+/*
+* Fondo menús, para que se marque en qué página estás
+*/
+div nav ul li a.enc-activo {
+    color: #c10841 !important;
+}
+
+/*
+* altura de los títulos de las tarjetas de la parte de detrás
+*/
+div.container-fluid.titulo-altura {
+    position: relative;
+    height: 30%;
+}
+
+/*
+* controladores del slider
+*/
+.slider .slider-nav .prev, .slider .slider-nav .next {
+    background-color: #0098ca;
+}
+
+
+.slideer .slider-nav .prev:hover, .slideer .slider-nav .next:hover {
+   background-color: #0098ca;
+}
+
+.switches a {
+   background-color: #0098ca; 
+}
+
+.switches a.selected {
+    background-color: #c10841; 
+}
+
+.touch-device .slider .slider-nav .prev:hover polygon,
+.touch-device .slider .slider-nav .next:hover polygon {
+  fill: green;
+}
+
+/*
+ *   Estilo texto slider
+*/
+.slider-text {
+    position: relative;
+    height: 85%; 
+    overflow: auto;    
+    padding-right: 2%;
+}
+
+.btn-adjust {
+    margin-left: -20px;
+}
+
+
+.fwb-dim {
+    width: 100%;
+    height: 100%;
+}
+
+/*
+Formulario
+*/
+#carril {
+  height: 32px;
+  width: 256px;
+  background-image: url("../img/imagenes_carril_antispam/cloud-hospitality-carril-carril.png");
+  background-repeat: no-repeat;
+  
+}
+
+#movil {
+  height: 32px;
+  width: 112px;
+  background-image: url("../img/imagenes_carril_antispam/cloud-hospitality-carril-movil.png");
+  background-repeat: no-repeat;
+  float: left;
+  line-height: 32px;
+  text-align: center;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.ui-droppable{
+    height: 32px; 
+    width: 112px; 
+    float: right;
+}
+
+.ui-draggable {
+    position: relative; 
+    left: 0px; 
+    top: 0px;
+}
+
+.espacio-final {
+    height: 20px;
+}
+
+.img-cli-adjust {
+    width: 270px; 
+    height: 135px;
+}
+
+.tam-img {
+    // imagen de index, para que se mantenga a la altura
+    max-height: 521px;
+}
+
+/*
+@media (min-width: 768px) {
+    .dl-horizontal dt {
+        width: inherit;
+    }
+    
+    .dl-horizontal dd {
+        margin-left: 25px;
+    }
+}*/
+
+.lista-personaliz {
+    list-style-type: disc;
+    list-style-position: outside;
+    padding-left: 10px;    
+}
+
+/*.descriptions .lista-personaliz {
+    list-style-type: disc;
+    list-style-position: outside;
+    padding-left: 10px;    
+}*/
+
+/*.lista-personaliz li:before  {
+     content: '» ';   #187 
+}*/
+
+ul, ol {
+  padding: 0 0 0 15px;
+  
+}
+
+.descriptions li {
+    margin-bottom: 12px;
+    
+}
+
+.tam-fuente-form {
+    font-size: 11px;
+}
