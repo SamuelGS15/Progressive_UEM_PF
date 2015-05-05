@@ -310,15 +310,15 @@ function scrollMenu() {
 	  var currLink   = $(this),
 		  refElement = $(currLink.attr('href'));
 	  
-	  if (
-	  refElement.position().top - headerHeight <= scrollPos && 
-          refElement.position().top + refElement.height() > scrollPos) {
-		link.removeClass('active');
-		currLink.addClass('active');
-	  } else {
+            if (
+                refElement.position().top - headerHeight <= scrollPos && 
+                refElement.position().top + refElement.height() > scrollPos) {
+                    link.removeClass('active');
+                    currLink.addClass('active');
+            } else {
 		currLink.removeClass('active');
-	  }
-          
+            }
+        
     });
   }
 }
